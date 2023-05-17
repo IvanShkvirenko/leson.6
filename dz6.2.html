@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',       sans-serif;
+         }
+
+         .nav{
+            background-color: rgba(59, 35, 35, 0.879);
+            position: fixed;
+            height: 100%;
+            top: 0;
+            left: 0;
+            color: aliceblue;
+         }
+           .nav ul {
+              list-style-type: none;
+                 transition: 0.2s;
+                     width: 100px;
+         }
+         .nav ul:hover{
+            width: 250px;
+            transition:0.2s;
+         }
+         .nav li:hover{
+            background-color: rgba(40, 12, 12, 0.879);
+            transition: 0.2s;
+         }
+         .nav a {
+      text-decoration: none;
+      text-transform: uppercase;
+      padding: 70px 0px 20px 60px;
+      display: block;
+      height: 58px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      font-size: 18px;
+      color: gainsboro;
+    } 
+
+       .nav li a::after{
+        content: "";
+      margin: -68px 0px 0px 0px;
+      padding: 30px 40px;
+      display: flexbox;
+      float: left;
+       }
+        .nav li:nth-child(1) a{
+            background-image: url(icons/edit.png);
+        }
+        .nav li:nth-child(2) a{
+            background-image: url(icons/favorites.png);
+        }
+        .nav li:nth-child(3) a{
+            background-image: url(icons/history.png);
+        } 
+        .nav li:nth-child(4) a{
+            background-image: url(icons/security.png);
+        }
+        .nav li:nth-child(5) a{
+            background-image: url(icons/settings.png);
+        }
+        .nav ul:hover li:nth-child(1) a::after {
+      content: "EDIT";
+      
+    }
+
+    .nav ul:hover li:nth-child(2) a::after {
+      content: "FAVORITES";
+
+    }
+
+    .nav ul:hover li:nth-child(3) a::after {
+      content: "HISTORI";
+    }
+
+    .nav ul:hover li:nth-child(4) a::after {
+      content: "SECURITY";
+    }
+
+    .nav ul:hover li:nth-child(5) a::after {
+      content: "SETTING";
+    }
+    .menus {
+      text-align: center;
+      width: 58px;
+      padding: 30px 25px;
+      font-weight: 600;
+      font-size: 18px;
+     }
+     .text{ 
+        margin-left: 170px;
+      margin-right: 50px;
+      margin-top: 20px;
+      padding: 30px;
+      background-color: rgb(241, 177, 177);
+     } 
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="menus">MENU</div>
+        <ul>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+        </ul>
+      </div>
+      <div class="text">
+        <h1>Lorem ipsum dolor</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, eum? Nulla nemo at recusandae ullam iste? Magni quo numquam quisquam beatae ab, esse consequatur consequuntur tenetur vero nemo ducimus. Voluptate itaque odit unde eligendi repellat tempora nisi non repudiandae sunt voluptates fugit qui magni repellendus, corporis iste neque in eum at consequatur ipsa beatae accusantium voluptatibus hic. Saepe mollitia error excepturi ipsam atque libero aut blanditiis ullam culpa accusantium, eum tenetur porro quas, ipsa veniam. Similique atque exercitationem blanditiis saepe tempore mollitia iure repellat, ipsam vel nemo sint distinctio dignissimos ex a, porro necessitatibus consequatur tenetur voluptate ullam dolorum obcaecati iusto illo consectetur! Amet ea tempora provident voluptatum dignissimos corporis magnam consectetur voluptatem quisquam architecto quas, ut optio quidem molestias fugiat modi. Odit quaerat exercitationem rem reprehenderit nam delectus nemo, eaque qui accusantium minus, quae, nisi rerum ex amet dolorum excepturi provident numquam deserunt quod quo harum eos possimus? Deserunt sequi commodi possimus reprehenderit quaerat ullam exercitationem. Error, numquam! Voluptatibus inventore ea ab necessitatibus modi eius suscipit molestiae, sit porro possimus nesciunt nam eum exercitationem tenetur amet libero iure. Aspernatur quae facilis harum at doloremque quasi dignissimos fugiat quia, assumenda ex adipisci veniam iste! Qui fugiat odit iste tenetur quis veritatis, tempore repudiandae corporis. Eum modi expedita harum esse, praesentium officiis iure omnis laudantium dolorum? Fuga beatae debitis, dicta excepturi error veritatis consequatur eos quisquam repellendus. Qui quisquam libero laborum saepe veritatis! Quae saepe quasi est consequatur ea doloribus accusamus placeat, iure provident cum, tenetur velit doloremque. Eveniet, quisquam quo?</p>
+
+        <h1>Hic officia blanditiis</h1>
+        <p>Hic officia blanditiis tempore alias iusto similique saepe, quas illum non quisquam molestias exercitationem rem maiores cupiditate, minima distinctio nisi numquam rerum voluptatum. Sed, eveniet aut cumque accusamus natus illum ratione molestias reiciendis omnis quae ad possimus tempore illo error a accusantium vitae in autem quod maxime esse ipsa quaerat fugit velit? Placeat amet sint labore quaerat, aperiam quas iste cupiditate. Delectus exercitationem ea voluptate quasi nobis excepturi, tenetur voluptatibus provident reprehenderit, saepe quidem esse ullam, distinctio laboriosam ratione accusantium est eum id quam commodi dignissimos. Maxime minus tempore quidem consectetur nulla pariatur, cum necessitatibus quia illum eius perferendis odio in quas recusandae explicabo, officia assumenda magni adipisci animi facere. Consequatur sit modi illo necessitatibus quod magnam, alias accusantium eos omnis! Molestiae, quos quod quis facere aperiam officiis voluptatem dolores rem tempore fuga facilis mollitia dignissimos eos vitae nisi eveniet, maxime voluptates est? Sequi laboriosam deleniti aut necessitatibus pariatur vero reiciendis quo dolorem. Beatae cupiditate recusandae ex doloribus molestias eos ducimus eaque sint impedit ea dolorem, qui nam quibusdam at enim voluptatem iste vitae eveniet quas. Molestias velit impedit, soluta laudantium iste qui ex facere? Libero voluptate sit numquam repellendus culpa! Quae velit numquam natus, laboriosam tenetur dolores doloribus rerum nesciunt deleniti reprehenderit assumenda inventore placeat quidem odio quod et fuga, totam culpa omnis voluptate. Deleniti cum numquam harum natus ad maiores obcaecati fugiat? Eos magnam possimus velit quo voluptas quod iure? Aut corporis, eum exercitationem aliquam, magni obcaecati dolorem quod beatae totam possimus numquam, explicabo provident assumenda temporibus consequatur.</p>
+      </div>
+</body>
+</html>
